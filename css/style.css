@@ -19,7 +19,8 @@
 body {
     font-family: 'Playfair Display', serif;
     font-weight: normal;
-    font-style: normal
+    font-style: normal;
+
 }
 
 .img {
@@ -572,7 +573,7 @@ h3 {
 }
 
 .header-area .main-header-area {
-    padding: 0 150px
+    padding: 0 150px;
 }
 
 @media (max-width: 767px) {
@@ -729,6 +730,7 @@ h3 {
 @media (max-width: 767px) {
     .header-area .main-header-area.sticky {
         padding: 10px 0
+       
     }
 }
 
@@ -764,7 +766,7 @@ h3 {
 }
 
 .slider_bg_1 {
-    background-image: url(../img/banner/banner-08.png)
+    background-image: url(../img/banner/slider-1-2-taho.png)
 }
 
 .slider_bg_2 {
@@ -772,7 +774,11 @@ h3 {
 }
 
 .slider_bg_3 {
-    background-image: url(../img/banner/banner-04.png)
+    background-image: url(../img/banner/slider-3-taho.png)
+}
+
+.slider_bg_4 {
+    background-image: url(../img/banner/slider-4-taho.png)
 }
 
 .slider_area .single_slider {
@@ -942,7 +948,8 @@ h3 {
 
 .about_area .about_info .about_list {
     margin-bottom: 50px;
-    margin-top: 34px
+    margin-top: 34px;
+
 }
 
 .about_area .about_info .about_list li {
@@ -952,7 +959,12 @@ h3 {
     color: #808080;
     position: relative;
     padding-left: 35px;
-    margin-bottom: 6px
+    margin-bottom: 6px;
+
+}
+
+.about_list{
+    font
 }
 
 @media (max-width: 767px) {
@@ -1054,7 +1066,11 @@ h3 {
 }
 
 .youtube_bg {
-    background-image: url(../img/video/youtube_bg.png)
+    background-image: url(../img/video/vimeo_bg.png)
+}
+
+.vimeo_bg {
+    background-image: url(../img/video/vimeo_japon_bg.png)
 }
 
 .youtube_video_area .youtube_video {
@@ -1140,7 +1156,6 @@ h3 {
 
 .lastest_project .single_project_thumb img {
     width: 100%
-   
 }
 
 .testimonial_bg {
@@ -1158,7 +1173,7 @@ h3 {
     background-repeat: no-repeat
 }
 
-.testmonial_area p{
+.testmonial_area p {
     color: #ffffff;
 }
 
@@ -1647,11 +1662,11 @@ h3 {
 }
 
 .team_2 {
-    background-image: url(../img/team/jorge-01.png)
+    background-image: url(../img/team/jorge-02.png)
 }
 
 .team_3 {
-    background-image: url(../img/team/daniel-p-01.png)
+    background-image: url(../img/team/daniel-02.png)
 }
 
 .team_4 {
@@ -1659,7 +1674,8 @@ h3 {
 }
 
 .project_details {
-    padding: 200px 0
+    padding-top: 200px;
+    padding-bottom: 10px;
 }
 
 @media (max-width: 767px) {
@@ -1901,9 +1917,9 @@ h3 {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    -webkit-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
     width: 54px;
     font-size: 15px;
     color: #fff;
@@ -1925,13 +1941,19 @@ h3 {
     position: relative;
     right: 0px;
     top: 0px
+    
 }
 
 .details_slider_area .owl-carousel .owl-nav div.owl-prev i {
     position: relative;
     right: 0px;
-    top: 0px
+    top: 0px;
+   
 }
+
+
+
+
 
 .Ellipse_3 {
     border-radius: 50%;
@@ -4644,246 +4666,266 @@ h6 {
 
 /* line 62, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
 .compapy_info.minus_padding {
-  padding-top: 0;
-   
+    padding-top: 0;
+
 
 }
 
-.compapy_info{
- 
+.compapy_info {
+
     padding-bottom: 40px;
 
 }
 
 @media (max-width: 767px) {
-  /* line 59, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
-  .compapy_info {
-    padding-bottom: 20px;
-    padding-top: 20px;
-  }
+
+    /* line 59, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
+    .compapy_info {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 59, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
-  .compapy_info {
-    padding-bottom: 20px;
-    padding-top: 20px;
-  }
+
+    /* line 59, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
+    .compapy_info {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
 }
 
 /* line 73, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
 .compapy_info .man_thumb {
-  margin-bottom: 30px;
-  padding-right: 20px;
+    margin-bottom: 30px;
+    padding-right: 20px;
 }
 
 @media (max-width: 767px) {
-  /* line 73, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
-  .compapy_info .man_thumb {
-    padding-right: 0;
-  }
+
+    /* line 73, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
+    .compapy_info .man_thumb {
+        padding-right: 0;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 73, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
-  .compapy_info .man_thumb {
-    padding-right: 0;
-  }
+
+    /* line 73, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
+    .compapy_info .man_thumb {
+        padding-right: 0;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* line 73, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
-  .compapy_info .man_thumb {
-    padding-right: 0;
-  }
+
+    /* line 73, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
+    .compapy_info .man_thumb {
+        padding-right: 0;
+    }
 }
 
 /* line 85, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
 .compapy_info .man_thumb img {
-  width: 100%;
+    width: 100%;
 }
 
 /* line 89, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
 .compapy_info .company_info {
-  margin-bottom: 30px;
-  margin-top: 29px;
-  padding-left: 45px;
+    margin-bottom: 30px;
+    margin-top: 29px;
+    padding-left: 45px;
 }
 
 @media (max-width: 767px) {
-  /* line 89, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
-  .compapy_info .company_info {
-    padding-left: 0;
-    margin-top: 0;
-  }
+
+    /* line 89, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
+    .compapy_info .company_info {
+        padding-left: 0;
+        margin-top: 0;
+    }
 }
 
 /* line 97, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
 .compapy_info .company_info h3 {
-  font-size: 30px;
-  line-height: 40px;
-  
-  font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+
+    font-weight: 400;
 }
 
 @media (max-width: 767px) {
-  /* line 97, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
-  .compapy_info .company_info h3 {
-    font-size: 21px;
-    line-height: 36px;
-  }
+
+    /* line 97, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
+    .compapy_info .company_info h3 {
+        font-size: 21px;
+        line-height: 36px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 97, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
-  .compapy_info .company_info h3 {
-    font-size: 25px;
-    line-height: 36px;
-  }
+
+    /* line 97, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
+    .compapy_info .company_info h3 {
+        font-size: 25px;
+        line-height: 36px;
+    }
 }
 
 @media (max-width: 767px) {
-  /* line 110, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
-  .compapy_info .company_info h3 br {
-    display: none;
-  }
+
+    /* line 110, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
+    .compapy_info .company_info h3 br {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 110, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
-  .compapy_info .company_info h3 br {
-    display: none;
-  }
+
+    /* line 110, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
+    .compapy_info .company_info h3 br {
+        display: none;
+    }
 }
 
 /* line 119, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_service.scss */
 .compapy_info .company_info p {
-  color: #515151;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 28px;
-  margin-top: 21px;
-  margin-bottom: 36px;
+    color: #515151;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 21px;
+    margin-bottom: 36px;
 }
 
-
-
-
-
-
-
-/* Slider */
+/* Slider marcas*/
 .slick-slide {
     margin: 30px 30px;
+    
+
+}
+
+.margin-slider{
+    margin-bottom: 50px;
 }
 
 .slick-slide img {
     width: 100%;
 }
 
-.slick-slider
-{
+/*
+@media (max-width: 767px) {
+    .slick-slide {
+margin: 30px 30px;
+    }
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+ .slick-slide {
+margin: 30px 30px;
+    }
+}*/
+
+.slick-slider {
     position: relative;
     display: block;
     box-sizing: border-box;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-            user-select: none;
+    user-select: none;
     -webkit-touch-callout: none;
     -khtml-user-select: none;
     -ms-touch-action: pan-y;
-        touch-action: pan-y;
+    touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
 }
 
-.slick-list
-{
+.slick-list {
     position: relative;
     display: block;
     overflow: hidden;
     margin: 0;
     padding: 0;
 }
-.slick-list:focus
-{
+
+.slick-list:focus {
     outline: none;
 }
-.slick-list.dragging
-{
+
+.slick-list.dragging {
     cursor: pointer;
     cursor: hand;
 }
 
 .slick-slider .slick-track,
-.slick-slider .slick-list
-{
+.slick-slider .slick-list {
     -webkit-transform: translate3d(0, 0, 0);
-       -moz-transform: translate3d(0, 0, 0);
-        -ms-transform: translate3d(0, 0, 0);
-         -o-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
 }
 
-.slick-track
-{
+.slick-track {
     position: relative;
     top: 0;
     left: 0;
     display: block;
 }
+
 .slick-track:before,
-.slick-track:after
-{
+.slick-track:after {
     display: table;
     content: '';
 }
-.slick-track:after
-{
+
+.slick-track:after {
     clear: both;
 }
-.slick-loading .slick-track
-{
+
+.slick-loading .slick-track {
     visibility: hidden;
 }
 
-.slick-slide
-{
+.slick-slide {
     display: none;
     float: left;
     height: 100%;
     min-height: 1px;
 }
-[dir='rtl'] .slick-slide
-{
+
+[dir='rtl'] .slick-slide {
     float: right;
 }
-.slick-slide img
-{
+
+.slick-slide img {
     display: block;
 }
-.slick-slide.slick-loading img
-{
+
+.slick-slide.slick-loading img {
     display: none;
 }
-.slick-slide.dragging img
-{
+
+.slick-slide.dragging img {
     pointer-events: none;
 }
-.slick-initialized .slick-slide
-{
+
+.slick-initialized .slick-slide {
     display: block;
 }
-.slick-loading .slick-slide
-{
+
+.slick-loading .slick-slide {
     visibility: hidden;
 }
-.slick-vertical .slick-slide
-{
+
+.slick-vertical .slick-slide {
     display: block;
     height: auto;
     border: 1px solid transparent;
 }
+
 .slick-arrow.slick-hidden {
     display: none;
 }
@@ -4914,473 +4956,266 @@ h6 {
 
 
 
+
+
+/*-----------MODAL -------*/
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+   /* z-index: -1;*/
+    background-color: #000;
+}
+
+
+  .modal-backdrop{z-index: 1050;} 
+  .modal{
+    z-index: 1060;
+  }     
+  .modal-body{
+    font-family: 'Raleway', sans-serif;
+  }
+  
+
+html, body {
+     width: auto !important;
+     overflow-x: hidden !important;
+}
+
+
+
+
 /* line 5, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area {
-  position: relative;
-  padding: 190px 0 216px 0;
-  position: relative;
-  position: relative;
+    position: relative;
+    padding: 190px 0 216px 0;
+    position: relative;
+    position: relative;
 }
 
 @media (max-width: 767px) {
-  /* line 5, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
-  .case_study_area {
-    padding: 120px 0 120px 0;
-  }
+
+    /* line 5, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
+    .case_study_area {
+        padding: 120px 0 120px 0;
+    }
 }
 
 /* line 15, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area.white_case_study {
-  padding: 0px 0 200px 0;
+    padding: 0px 0 200px 0;
 }
 
 /* line 17, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area.white_case_study.study_page {
-  padding-top: 93px;
-  padding-bottom: 140px;
+    padding-top: 93px;
+    padding-bottom: 140px;
 }
 
 @media (max-width: 767px) {
-  /* line 17, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
-  .case_study_area.white_case_study.study_page {
-    padding: 40px 0;
-  }
+
+    /* line 17, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
+    .case_study_area.white_case_study.study_page {
+        padding: 40px 0;
+    }
 }
 
 /* line 23, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area.white_case_study.study_page .details_title h3 {
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 52px;
-  color: #131313;
-  margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    color: #131313;
+    margin-bottom: 40px;
 }
 
 @media (max-width: 767px) {
-  /* line 23, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
-  .case_study_area.white_case_study.study_page .details_title h3 {
-    font-size: 30px;
-    line-height: 40px;
-  }
+
+    /* line 23, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
+    .case_study_area.white_case_study.study_page .details_title h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
 }
 
 /* line 36, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .patrn_1 {
-  position: absolute;
-  left: 0;
-  top: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 /* line 41, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .patrn_2 {
-  position: absolute;
-  right: 0;
-  bottom: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 /* line 46, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .single_study {
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  margin-bottom: 60px;
-  overflow: hidden;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    overflow: hidden;
 }
 
 /* line 50, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .single_study.white_single_study {
-  overflow: visible;
+    overflow: visible;
 }
 
 /* line 53, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .single_study .thumb {
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  overflow: hidden;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
 }
 
 /* line 57, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .single_study .thumb img {
-  width: 100%;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
 
 /* line 65, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .single_study .subheading {
-  background: #131313;
-  padding: 31px 0;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+    background: #131313;
+    padding: 31px 0;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
 
 /* line 69, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .single_study .subheading h4 {
-  margin-bottom: 6px;
-  color: #fff;
-  font-size: 17px;
-  font-weight: 400;
+    margin-bottom: 6px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
 }
 
 /* line 75, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .single_study .subheading h4 a:hover {
-  color: #C04132;
+    color: #C04132;
 }
 
 /* line 80, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .single_study .subheading p {
-  color: #798896;
-  margin-bottom: 0;
+    color: #798896;
+    margin-bottom: 0;
 }
 
 /* line 84, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .single_study .subheading.white_subheading {
-  background: #fff;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.04);
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+    background: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.04);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 /* line 89, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .single_study .subheading.white_subheading h4 {
-  color: #131313;
+    color: #131313;
 }
 
 /* line 92, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .single_study .subheading.white_subheading h4 a:hover {
-  color: #C04132;
+    color: #C04132;
 }
 
 /* line 97, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .single_study .subheading.white_subheading p {
-  color: #919191;
-  margin-bottom: 0;
+    color: #919191;
+    margin-bottom: 0;
 }
 
 /* line 105, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .single_study:hover .thumb img {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 /* line 108, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .single_study:hover .subheading {
-  background: #1A344C;
+    background: #1A344C;
 }
 
 /* line 110, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .single_study:hover .subheading.white_subheading {
-  background: #fff;
+    background: #fff;
 }
 
 /* line 116, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .owl-dots {
-  position: absolute;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    left: 50%;
 }
 
 /* line 122, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .owl-dots div {
-  width: 13px;
-  height: 13px;
-  background: #334A60;
-  display: inline-block;
-  margin: 0 2px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    background: #334A60;
+    display: inline-block;
+    margin: 0 2px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
 }
 
 /* line 129, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .owl-dots div.active {
-  width: 27px;
-  background: #808E9C;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
+    width: 27px;
+    background: #808E9C;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
 }
 
 /* line 135, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .load_more {
-  margin-top: 40px;
+    margin-top: 40px;
 }
 
 /* line 137, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .load_more .load_more_btn {
-  display: inline-block;
-  color: #C04132;
-  background: #FFF5FB;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
-  padding: 13px 35px;
-  font-size: 15px;
-  font-weight: 500;
+    display: inline-block;
+    color: #C04132;
+    background: #FFF5FB;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    padding: 13px 35px;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 /* line 145, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
 .case_study_area .load_more .load_more_btn:hover {
-  background: #C04132;
-  color: #fff;
+    background: #C04132;
+    color: #fff;
 }
 
 
-/* line 2, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
-#accordion button {
-  font-size: 16px;
-  color: #0f2137;
-  font-weight: 500;
-  font-weight: 500;
-}
 
-@media (max-width: 767px) {
-  /* line 2, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
-  #accordion button {
-    font-size: 14px;
-  }
-}
-
-/* line 11, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
-#accordion .card {
-  margin-bottom: 15px;
-  border-radius: 0;
-  border-radius: 0 !important;
-  margin-bottom: 30px;
-}
-
-/* line 16, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
-#accordion .card .card-header {
-  background-color: transparent;
-  padding: 4px 14px;
-}
-
-@media (max-width: 767px) {
-  /* line 16, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
-  #accordion .card .card-header {
-    padding: 4px 0;
-  }
-}
-
-/* line 23, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
-#accordion .card .card-body {
-  font-size: 16px;
-  line-height: 28px;
-  color: #888888;
-  padding: 10px 30px 32px;
-}
-
-/* line 29, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
-#accordion .card .collapse {
-  border-bottom: 1px solid #d7dbe3;
-}
-
-/* line 31, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
-#accordion .card .collapse.show {
-  border-bottom: 1px solid transparent;
-}
-
-/* line 39, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
-#accordion h5 {
-  position: relative;
-  z-index: 1;
-}
-
-/* line 65, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
-#accordion h5 button.btn.btn-link:after {
-  position: absolute;
-  content: "\e648";
-  top: 9px;
-  right: 12px;
-  height: auto;
-  font-family: 'themify';
-  color: #0f2137;
-  font-size: 14px;
-  left: -24px;
-}
-
-@media (max-width: 767px) {
-  /* line 65, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
-  #accordion h5 button.btn.btn-link:after {
-    right: 10px;
-  }
-}
-
-/* line 81, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
-#accordion h5 button.btn.btn-link.collapsed:after {
-  content: "\e64b";
-  color: #0f2137;
-  font-size: 14px;
-}
-
-/* line 88, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
-#accordion h5 button i {
-  height: 36px;
-  width: 36px;
-  font-size: 14px;
-  display: inline-block;
-  text-align: center;
-  line-height: 36px;
-  border-radius: 50%;
-  margin-right: 20px;
-  color: #fff;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-@media (max-width: 767px) {
-  /* line 88, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
-  #accordion h5 button i {
-    display: none;
-  }
-}
-
-/* line 104, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
-#accordion h5 button.btn.btn-link.collapsed i {
-  background: #f4f7f9;
-  color: #0f2137;
-}
-
-@media (max-width: 767px) {
-  /* line 104, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
-  #accordion h5 button.btn.btn-link.collapsed i {
-    display: none;
-  }
-}
-
-/* line 116, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
-#accordion .btn-link:hover {
-  color: #182028;
-  text-decoration: none;
-}
-
-/* line 120, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
-#accordion .btn {
-  text-align: left !important;
-}
-
-/* line 1, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
-.accordion_area {
-  padding-top: 100px;
-  padding-bottom: 160px;
-}
-
-/* line 4, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
-.accordion_area .accordion_thumb {
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-/* line 7, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
-.accordion_area .accordion_thumb img {
-  width: 100%;
-}
-
-/* line 12, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
-.accordion_area .faq_ask h3 {
-  font-size: 46px;
-  font-weight: 300;
-  color: #131313;
-  margin-bottom: 57px;
-}
-
-@media (max-width: 767px) {
-  /* line 12, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
-  .accordion_area .faq_ask h3 {
-    font-size: 38px;
-    margin-bottom: 50px;
-    margin-top: 20px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 12, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
-  .accordion_area .faq_ask h3 {
-    font-size: 38px;
-    margin-bottom: 50px;
-    margin-top: 20px;
-  }
-}
-
-/* line 29, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
-.accordion_area .faq_ask #accordion .card {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: none;
-  border-radius: .25rem;
-  border-bottom: 1px solid #E8E8E8;
-}
-
-/* line 46, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
-.accordion_area .faq_ask #accordion .card .card-header {
-  background-color: transparent;
-  padding: 4px 14px;
-  border: none;
-}
-
-/* line 51, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
-.accordion_area .faq_ask #accordion button {
-  font-size: 15px;
-  color: #001D38 !important;
-  font-weight: 300 !important;
-}
-
-@media (max-width: 767px) {
-  /* line 55, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
-  .accordion_area .faq_ask #accordion button span {
-    display: none;
-  }
-}
-
-/* line 61, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
-.accordion_area .faq_ask #accordion .card .card-header {
-  background-color: transparent;
-  padding: 4px 30px;
-}
-
-/* line 75, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
-.accordion_area .faq_ask #accordion .card .card-body {
-  font-size: 15px;
-  line-height: 28px;
-  color: #727272;
-  padding: 10px 30px 32px;
-  font-weight: 400;
-  line-height: 28px;
-  font-family: 'Raleway', sans-serif;
-}
-
-/* line 85, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
-.accordion_area .faq_ask #accordion .btn-link.focus, .accordion_area .faq_ask #accordion .btn-link:focus {
-  text-decoration: none;
-  border-color: transparent;
-  box-shadow: none;
-}

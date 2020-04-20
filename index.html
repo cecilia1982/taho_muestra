@@ -21,7 +21,14 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+
+     <!-- SCROLL -->
+    <script src="js/smooth-scroll.min.js"></script>
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+</script>
 </head>
 
 <body>
@@ -30,12 +37,12 @@
         <![endif]-->
     <!------------------------------------ header-start ----------------------------------------->
     <header>
-        <div class="header-area ">
+        <div class="header-area">
             <div id="sticky-header" class="main-header-area white-bg">
                 <div class="container-fluid p-0">
                     <div class="row align-items-center justify-content-between no-gutters">
                         <div class="col-xl-2 col-lg-2">
-                            <div class="logo-img">
+                            <div class="logo-img" >
                                 <a href="index.html">
                                     <img src="img/logo-header.png" alt="">
                                 </a>
@@ -47,16 +54,26 @@
                                     <ul id="navigation">
                                         <li><a class="active" href="index.html">home</a></li>
                                         <li><a href="about.html">Conozca TAHO</a></li>
-                                        <li><a href="">Servicios</a></li>
-                                        <li><a href="">Liker Lean Advisors</a></li>
-                                        <li><a href="">Prensa</a></li>
+                                        <li><a href="#servicios">Servicios <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="consultoria.html">Consultoría</a></li>
+                                                <li><a href="capital_humano.html">Capital Humano</a></li>
+                                                <li><a href="#">JAME</a></li>
+                                                <li><a href="#">Diplomatura en Lean Management</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#team">Equipo</a></li>
+                                        <li><a href="#liker">Liker Lean Advisors</a></li>
+                                        <li><a href="#prensa">Prensa</a></li>
+                                    
+                                        
                                     </ul>
                                 </nav>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-3 d-none d-lg-block">
-                            <div class="get_in_tauch">
-                                <a href="contact.html" class="boxed-btn">CONTACTO</a>
+                        <div class="col-xl-3 col-lg-3 d-none d-lg-block" >
+                            <div class="get_in_tauch" >
+                                <a href="contact.html" class="boxed-btn" >CONTACTO</a>
                             </div>
                         </div>
                         <div class="col-12">
@@ -88,6 +105,19 @@
             </div>
             <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_3">
             </div>
+            <div class="single_slider overlay2 d-flex align-items-center justify-content-center slider_bg_4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="slider_text text-center">
+                                <h3><small>JAPÓN 2020 7<span style="text-transform: lowercase;">ma</span> Edición</small></h3>
+                                <p><span style="color: #C04132;"><strong>JAME</strong></span> | Programa Vivencial de Desarrollo de Alta Dirección</p>
+                                <a href="http://jame.com.ar/pre-inscripcion-2020.html" target="_blank" class="boxed-btn2">Pre Inscripción 2020</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!------------------------------------------/AREA SLIDER----------------------------------------->
@@ -96,7 +126,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6 col-md-6">
-                    <div class="about_thumb">
+                    <div class="about_thumb" data-aos="zoom-out-up">
                         <img src="img/about/1-01.png" alt="">
                     </div>
                 </div>
@@ -110,131 +140,24 @@
                         <p>Impulsamos el crecimiento sostenido de las organizaciones generando y canalizando energías innovadoras y positivas<br> de transformación en sus prácticas de gestión y en todos<br> sus ámbitos de trabajo.</p>
                         <p><strong>TAHO</strong> es un equipo multidisciplinario que comparte<br> un propósito, un conjunto de principios y una misma metodología de abordaje.</p>
                         <br>
-                        <a href="#" class="boxed-btn">Conozca TAHO</a>
+                        <a href="about.html" class="boxed-btn">Conozca TAHO</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!----------------------------------------ABOUT AREA --------------------------------------------->
-    <!-------------------------------------------------Branding--------------------------------------->
-    <div class="testmonial_area testimonial_bg_2 overlay">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="testmonial_info text-center">
-                        <div class="author">
-                            <img src="img/logo-header.png" alt="">
-                        </div>
-                    </div>
-                    <div class="testmonial_info text-center">
-                        <p><strong>Tanto para los servicios de consultoría como en las soluciones de capital humano<br> TAHO ha sido pionera en el uso de plataformas tecnológicas abiertas y de terceros<br> que le han permitido y permiten desarrollar con éxito todos sus servicios<br> en formatos de teletrabajo a distancia y conectados siempre en tiempo real.</strong>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-----------------------------------------------/Branding-------------------------------------->
-    <!-----------------------------------------Productos y servicios------------------------------------->
-    <div class="lastest_project">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="section_title mb-60">
-                        <span class="sub_heading">TAHO | Servicios</span>
-                        <h3>Productos y servicios</h3>
-                        <div class="seperator"></div>
-                        <p>Nuestra oferta de productos y servicios orientados a la transformación<br>
-                            y evolución continua de los negocios, brinda soluciones excepcionales<br>
-                            a todos nuestros clientes a través de:</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center mb-80">
-                <div class="col-xl-6 col-md-6">
-                    <div class="single_project_thumb">
-                        <img src="img/project/ejemplo-servicio.png" alt="">
-                    </div>
-                </div>
-                <div class="col-xl-5 offset-xl-1 col-md-6">
-                    <div class="section_title">
-                        <span class="sub_heading2">TAHO | Servicios</span>
-                        <h4>Servicios de Consultoría</h4>
-                        <p>Transformaciones y rediseños para la mejora consistente del desempeño de los PROCESOS organizacionales asegurando su alineamiento preciso con el PROPÓSITO y VISIÓN de la organización mediante el trabajo en equipo y desarrollo de las PERSONAS.</p>
-                        <a href="consultoria.html" class="boxed-btn">Conozca más</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center mb-80">
-                <div class="col-xl-6 col-md-6">
-                    <div class="section_title">
-                        <span class="sub_heading2">TAHO | Servicios</span>
-                        <h4>Soluciones de Capital Humano</h4>
-                        <p>Vinculadas al desarrollo planificado de las personas en la organización.</p>
-                        <a href="capital_humano.html" class="boxed-btn">Conozca más</a>
-                    </div>
-                </div>
-                <div class="col-xl-5 offset-xl-1 col-md-6">
-                    <div class="single_project_thumb ">
-                        <img src="img/project/servicios-2.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center mb-80">
-                <div class="col-xl-6 col-md-6">
-                    <div class="single_project_thumb">
-                        <img src="img/project/ejemplo-servicio.png" alt="">
-                    </div>
-                </div>
-                <div class="col-xl-5 offset-xl-1 col-md-6">
-                    <div class="section_title">
-                        <span class="sub_heading2">TAHO | Productos</span>
-                        <h4>JAME</h4>
-                        <p>Desarrollo vivencial en Japón para Alta Dirección y su aplicación práctica dentro de su propia organización.</p>
-                        <a href="www.jame.com.ar" class="boxed-btn">Conozca JAME</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center mb-80">
-                <div class="col-xl-6 col-md-6">
-                    <div class="section_title">
-                        <span class="sub_heading2">TAHO | Productos</span>
-                        <h4>Diplomatura en Lean Management</h4>
-                        <p>Autodesarrollo de lideres y personas interesadas en la comprensión integral del modelo lean management brindado con conjunto con el ITBA.</p>
-                        <a href="https://www.itba.edu.ar/postgrado/programas-ejecutivos/diplomatura-en-lean-management/" target="_blank" class="boxed-btn">Visite la Web</a>
-                    </div>
-                </div>
-                <div class="col-xl-5 offset-xl-1 col-md-6">
-                    <div class="single_project_thumb">
-                        <img src="img/project/servicios-2.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-----------------------------------------/Productos y servicios------------------------------------->
-    <!-------------------------------------------GRAFICO Y MENSAJE---------------------------------------->
-    <div class="compapy_info">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-5 col-md-5">
-                    <div class="man_thumb">
-                        <img src="img/project/grafica.png" alt="">
-                    </div>
-                </div>
-                <div class="col-xl-7 col-md-7">
-                    <div class="company_info">
-                        <h3>Productos y servicios orientados<br> a la transformación y evolución<br> continua de los negocios</h3>
-                        <p>Estos representan al ADN de las organizaciones y trabajan en una simbiosis<br> de soluciones socio-técnicas y tecnológicas que apuntan a obtener el mayor resultado de sus PROCESOS y a desarrollar a las PERSONAS de la organización respetando siempre la identidad, rol, relevancia y alcance de cada actor de la misma. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!------------------------------------------/GRAFICO Y MENSAJE---------------------------------------->
+    <!---------------------------------------- ABOUT AREA -------------------------------------->
+
     <!-----------------------------------------------SLIDER LOGOS--------------------------------------->
-    <div class="container">
+  <div class="container margin-slider">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="section_title text-center mb-95">
+                    <span class="sub_heading">Clientes</span>
+                    <h3>Ellos confiaron en nosotros</h3>
+                </div>
+            </div>
+        </div>
         <section class="customer-logos slider">
             <div class="slide"><img src="img/clientes/cliente-000.png"></div>
             <div class="slide"><img src="img/clientes/cliente-001.png"></div>
@@ -274,11 +197,42 @@
             <div class="slide"><img src="img/clientes/cliente-022.png"></div>
             <div class="slide"><img src="img/clientes/cliente-026.png"></div>
             <div class="slide"><img src="img/clientes/cliente-031.png"></div>
+            <div class="slide"><img src="img/clientes/cliente-038.png"></div>
+            <div class="slide"><img src="img/clientes/cliente-040.png"></div>
         </section>
     </div>
     <!---------------------------------------------/SLIDER LOGOS--------------------------------------->
+    <!-------------------------------------------------Branding--------------------------------------->
+    <div class="testmonial_area testimonial_bg_2 overlay">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="testmonial_active owl-carousel">
+                        <div class="single_testmonial">
+                            <div class="testmonial_info text-center">
+                                <div class="author">
+                                    <img src="img/logo-header.png" alt="">
+                                </div>
+                                <p><strong>Tanto para los servicios de consultoría como en las soluciones de capital humano<br> TAHO ha sido pionera en el uso de plataformas tecnológicas abiertas y de terceros<br> que le han permitido y permiten desarrollar con éxito todos sus servicios<br> en formatos de teletrabajo a distancia y conectados siempre en tiempo real.</strong></p>
+                            </div>
+                        </div>
+                        <div class="single_testmonial">
+                            <div class="testmonial_info text-center">
+                                <p style="font-size: 32px; color: #;"><strong> Curso on-line sobre los fundamentos del Kata de Mejora y de Entrenamiento</strong></p>
+                                <p>Jeffrey Liker, Jim Franz y Mike Rother juntos le demostrarán de qué forma se debe ejecutar<br> esta parte fundamental del rol del líder haciendo de la mejora continua<br> una parte esencial de la cultura organizacional.</p>
+                                <div class="author_name">
+                                    <a href="https://www.kata.teachable.com/p/the-online-improvement-kata-coaching-kata-espanol/?affcode=43912_htb-dgc5" target="_blank" class="boxed-btn">Inscribirse</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------------------------/Branding-------------------------------------->
     <!------------------------------------------EQUIPO DE EXPERTOS --------------------------------------->
-    <div class="team_area">
+    <div class="team_area" id="team">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -290,150 +244,84 @@
                 </div>
             </div>
             <div class="row">
+               
                 <div class="col-xl-3 col-md-3">
                     <div class="single_team text-center">
-                        <div class="thumb team_1">
+                        <div class="thumb team_1" data-aos="zoom-in">
                             <div class="author_links">
                                 <ul>
-                                    <li><a href="#" target="_blank"><i class="fa fa-linkedin""></i></a></li>
-                                    <li><a href=" #"><i class="fa fa-envelope-o"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/facundo-gonzalez/?originalSubdomain=ar" target="_blank"><i class="fa fa-linkedin""></i></a></li>
+                                    <li><a href=" mailto:facundo@taho.com.ar" target="_top"><i class="fa fa-envelope-o"></i></a></li>
                                 </ul>
                             </div>
                         </div>
-                        <h3>Facundo Gonzalez</h3>
-                        <p>Socio fundador / Dir.de TAHO</p>
-                        <a href="#" class="genric-btn success-border medium">Sobre Facundo</a>
+                        <h3>Facundo González</h3>
+                        <p>Socio fundador<br>Director de TAHO</p>
+                       
+                        <button  type="button" class="genric-btn success-border medium" data-toggle="modal" data-target="#modalFacundo">Sobre Facundo</button>
                     </div>
                 </div>
+                
                 <div class="col-xl-3 col-md-3">
                     <div class="single_team text-center">
-                        <div class="thumb team_2">
+                        <div class="thumb team_2" data-aos="zoom-in">
                             <div class="author_links">
                                 <ul>
-                                    <li><a href="#" target="_blank"><i class="fa fa-linkedin""></i></a></li>
-                                    <li><a href=" #"><i class="fa fa-envelope-o"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/jorge-anschutz-41379039/?originalSubdomain=ar" target="_blank"><i class="fa fa-linkedin""></i></a></li>
+                                    <li><a href=" mailto:janschutz@taho.com.ar" target="_top"><i class="fa fa-envelope-o"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                         <h3>Jorge Anschütz</h3>
-                        <p>Socio fundador / Dir. de TAHO</p>
-                        <a href="#" class="genric-btn success-border medium">Sobre Jorge</a>
+                        <p>Socio fundador<br>Director de TAHO</p>
+                        
+                        <button type="button" class="genric-btn success-border medium" data-toggle="modal" data-target="#modalJorge">Sobre Jorge</button>
                     </div>
                 </div>
+                
                 <div class="col-xl-3 col-md-3">
                     <div class="single_team text-center">
-                        <div class="thumb team_3">
+                        <div class="thumb team_3" data-aos="zoom-in">
                             <div class="author_links">
                                 <ul>
-                                    <li><a href="https://www.linkedin.com/in/daniel-padilla-60b83615/" target="_blank"><i class="fa fa-linkedin""></i></a></li>
-                                    <li><a href=" #"><i class="fa fa-envelope-o"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/daniel-padilla-60b83615/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="mailto:daniel.Padilla@taho.com.ar" target="_top"><i class="fa fa-envelope-o"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                         <h3>Daniel Padilla</h3>
-                        <p>Director Asociado Capital Humano</p>
-                        <a href="#" class="genric-btn success-border medium">Sobre Daniel</a>
+                        <p>Director Asociado<br> Capital Humano</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="genric-btn success-border medium" data-toggle="modal" data-target="#modalDaniel">Sobre Daniel</button>
                     </div>
                 </div>
+                
                 <div class="col-xl-3 col-md-3">
                     <div class="single_team text-center">
-                        <div class="thumb team_4">
+                        <div class="thumb team_4" data-aos="zoom-in">
                             <div class="author_links">
                                 <ul>
                                     <li><a href="https://www.linkedin.com/in/daniel-porciel-29737630/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
+                                    <li><a href="mailto:dporciel@taho.com.ar" target="_top"><i class="fa fa-envelope-o"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                         <h3>Daniel Porciel</h3>
-                        <p>Gerente Desarrollo Organizacional</p>
-                        <button type="button" class="genric-btn success-border medium" data-toggle="modal" data-target="#porciel">
-                            Sobre Daniel
-                        </button>
+                        <p>Gerente<br> Desarrollo Organizacional</p>
+                    
+                        <button type="button" class="genric-btn success-border medium" data-toggle="modal" data-target="#modalDaniel2">Sobre Daniel</button>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
     <!--------------------------------/EQUIPO DE EXPERTOS --------------------------------->
-    <!--------------------------------------MODALS----------------------------------------->
-    <!--------------------------------------/MODALS---------------------------------------->
-    <!-- accordion_area  -->
-    <div class="accordion_area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6">
-                    <div class="faq_ask">
-                        <h3>Actitud TAHO | Principios</h3>
-                        <div id="accordion">
-                            <div class="card">
-                                <div class="card-header" id="headingTwo">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            CO-CREAMOS Y CONSTRUIMOS EN EQUIPO </span>
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion" style="">
-                                    <div class="card-body">Codo a codo junto al cliente para comprender profundamente su condición actual y sus DESAFÍOS para visualizar el CAMINO a transitar en pos del crecimiento organizacional.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="headingOne">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                            ENTREGAMOS VALOR TANGIBLE AL CLIENTE EN FLUJO CONTINUO
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion" style="">
-                                    <div class="card-body">Balanceando expectativas de resultados y beneficios de corto, medio y largo plazo.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="headingThree">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            DESARROLLAMOS RELACIONES DE CONFIANZA DE LARGO PLAZO
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion" style="">
-                                    <div class="card-body">Con cada cliente siendo socios estratégicos de transformaciones integrales en todas las áreas de negocio y soporte.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="headingFour">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                            IMPULSAMOS LA CREATIVIDAD, INNOVACIÓN Y MEJORA CONTINUA
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion" style="">
-                                    <div class="card-body">Como motor del trabajo en equipo en ambientes colaborativos.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                           <a href="#" class="genric-btn success-border medium">Más sobre TAHO</a>
-                </div>
 
-                <div class="col-xl-6 col-lg-6">
-                    <div class="accordion_thumb">
-                        <img src="img/banner/TAHO- img marca.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--/ accordion_area  -->
+ 
+
     <!---------------------------------Liker Lean Advisors--------------------------------->
-    <div class="testmonial_area testimonial_bg overlay2">
+ <div class="testmonial_area testimonial_bg overlay2" id="liker">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-12">
@@ -447,28 +335,45 @@
                         </p>
                     </div>
                     <div class="row">
-                        <div class="col-6">
+                    <div class="col-md-6">
+                        <div class="single-defination">
+                            
                             <p style="font-size: 17px;">El Dr. Jeffrey Liker es Presidente de Liker Lean Advisors y CEO del Lean Leadership Institute.<br>
                                 Autor del best-seller internacional <strong>"The Toyota Way"</strong> (traducido a 26 idiomas).<br>
                                 Obtuvo el Premio Sloan Industry por el MIT.
-                                Distinguido con el Premio al "Libro del Año" otorgado por el Institute of Industrial Engineers.
-                                Co-autor de otros 7 libros.<br>
+                                Distinguido con el Premio al "Libro del Año" otorgado por el Institute of Industrial Engineers.<br>
+                                Co-autor de otros 7 libros.
                                 Sus publicaciones y artículos fueron reconocidos con 11 Shingo Prizes a la Excelencia en Investigación.<br>
                                 Profesor de Ingeniería Industrial y Operaciones de la Universidad de Michigan.</p>
                         </div>
-                        <div class="col-6">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="single-defination">
+                            
                             <p style="font-size: 17px;">Orador Principal en Congresos y Seminarios alrededor de todo el mundo.<br>
                                 Consultor y Asesor de Harley Davidson, Caterpillar, AMD, Android, Areva, Hertz, Rio Tinto Mining, Tenneco Automotive, Alcatel-Lucent, Jacksonville Naval Air Depot, US Airforce Material Command, Johnson Controls,<br> entre otras.<br>
                                 En 2013 entró al Salón de la Fama de la AME, que reconoce a líderes de opinión y personas influyentes que apoyan los valores, principios y prácticas que se encuentran dentro de las principales organizaciones empresariales de excelencia.</p>
                         </div>
                     </div>
+                
+                </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- testmonial_area_end -->
+
+
+
+
+
+
+
+
+
+
     <!------------------------------------------------PRENSA------------------------------------------>
-    <div class="case_study_area white_case_study study_page">
+<div class="case_study_area white_case_study study_page" id="prensa">
         <div class="patrn_1 d-none d-lg-block">
             <img src="img/pattern/patrn_1.png" alt="">
         </div>
@@ -504,12 +409,12 @@
                     <div class="single_study text-center white_single_study">
                         <div class="thumb">
                             <a href="Case_details.html">
-                                <img src="img/case_study/blog.png" alt="">
+                                <img src="img/case_study/1.png" alt="">
                             </a>
                         </div>
                         <div class="subheading white_subheading">
-                            <h4><a href="http://forumlean.com.ar/" target="_blank">3er FORUM Internacional de LEAN MANAGEMENT</a></h4>
-                            <p>En la Ciudad de Buenos Aires se ha desarrollado el 3er. Forum Internacional de LEAN Management.</p>
+                            <h4><a href="https://www.ar.emb-japan.go.jp/Notas/07102016JAME.html" target="_blank">Recepción con motivo de Japanese Management Experience (JAME)</a></h4>
+                            <p>El Embajador Noriteru Fukushima recibió<br> en su residencia a los participantes del Japanese Management Experience (JAME)</p>
                         </div>
                     </div>
                 </div>
@@ -517,12 +422,12 @@
                     <div class="single_study text-center white_single_study">
                         <div class="thumb">
                             <a href="Case_details.html">
-                                <img src="img/case_study/blog.png" alt="">
+                                <img src="img/case_study/5.png" alt="">
                             </a>
                         </div>
                         <div class="subheading white_subheading">
-                            <h4><a href="http://forumlean.com.ar/" target="_blank">3er FORUM Internacional de LEAN MANAGEMENT</a></h4>
-                            <p>En la Ciudad de Buenos Aires se ha desarrollado el 3er. Forum Internacional de LEAN Management.</p>
+                            <h4><a href="https://www.cronista.com/management/Management-sin-desperdicio-20140723-0019.html" target="_blank">Management sin desperdicios<br> El Cronista</a></h4>
+                            <p>Jeffrey Liker, autor del best seller<br> The Toyota Way, se especializa <br>en el modelo de gestión Lean, enfocado en...</p>
                         </div>
                     </div>
                 </div>
@@ -530,12 +435,12 @@
                     <div class="single_study text-center white_single_study">
                         <div class="thumb">
                             <a href="Case_details.html">
-                                <img src="img/case_study/blog.png" alt="">
+                                <img src="img/case_study/2.png" alt="">
                             </a>
                         </div>
                         <div class="subheading white_subheading">
-                            <h4><a href="http://forumlean.com.ar/" target="_blank">3er FORUM Internacional de LEAN MANAGEMENT</a></h4>
-                            <p>En la Ciudad de Buenos Aires se ha desarrollado el 3er. Forum Internacional de LEAN Management.</p>
+                            <h4><a href="https://www.cronista.com/negocios/Management-a-la-japonesa-nueva-carrera-de-estudio-para-CEOs-argentinos-20160725-0028.html" target="_blank">Management a la japonesa, nueva carrera de estudio para CEOs argentinos</a></h4>
+                            <p>Altos ejecutivos de grandes empresas<br> locales viajarán al país asiático<br> para participar de un programa vivencial.</p>
                         </div>
                     </div>
                 </div>
@@ -543,12 +448,14 @@
                     <div class="single_study text-center white_single_study">
                         <div class="thumb">
                             <a href="Case_details.html">
-                                <img src="img/case_study/blog.png" alt="">
+                                <img src="img/case_study/7.jpg" alt="">
                             </a>
                         </div>
                         <div class="subheading white_subheading">
-                            <h4><a href="http://forumlean.com.ar/" target="_blank">3er FORUM Internacional de LEAN MANAGEMENT</a></h4>
-                            <p>En la Ciudad de Buenos Aires se ha desarrollado el 3er. Forum Internacional de LEAN Management.</p>
+                            <h4><a href="https://sites.google.com/archg.net/taho/p%C3%A1gina-principal" target="_blank">Cierre de la 6ta Edición<br> JAME
+                                    JAPÓN 2019</a></h4>
+                            <p>JAME es una Experiencia única y Exclusiva.<br>
+                                Trascendente para el participante<br> y para la empresa</p>
                         </div>
                     </div>
                 </div>
@@ -556,17 +463,17 @@
                     <div class="single_study text-center white_single_study">
                         <div class="thumb">
                             <a href="Case_details.html">
-                                <img src="img/case_study/blog.png" alt="">
+                                <img src="img/case_study/blog-8.jpg" alt="">
                             </a>
                         </div>
                         <div class="subheading white_subheading">
-                            <h4><a href="http://forumlean.com.ar/" target="_blank">3er FORUM Internacional de LEAN MANAGEMENT</a></h4>
-                            <p>En la Ciudad de Buenos Aires se ha desarrollado el 3er. Forum Internacional de LEAN Management.</p>
+                            <h4><a href="https://www.youtube.com/watch?v=raOw7aA-ShA" target="_blank">VIDEO Resumen
+                                    JAME <br>Edición 2017</a></h4>
+                            <p>Momentos inolvidables y testimonios<br> de JAME 2017, capturados en este<br> sensacional video</p>
                         </div>
                     </div>
                 </div>
             </div>
-           
         </div>
     </div>
     <!--/ case_study_area  -->
@@ -599,11 +506,11 @@
                     <div class="col-xl-9 col-12 col-md-8">
                         <div class="footer_header d-flex justify-content-between">
                             <div class="footer_header_left">
-                                <h3>Transformación y evolución de los negocios</h3>
+                                <h3>Transformación y evolución<br> de los negocios</h3>
                                 <p>Impulsamos la creatividad, innovación y mejora contínua</p>
                             </div>
-                            <div class="footer_btn">
-                                <a href="#" class="boxed-btn2">Contáctese</a>
+                            <div class="footer_btn" data-aos="fade-left">
+                                <a href="contact.html" class="boxed-btn2">Contáctese</a>
                             </div>
                         </div>
                         <div class="row">
@@ -629,7 +536,6 @@
                                                 Servicios
                                             </h3>
                                             <ul class="quick_links">
-                                                
                                                 <li><a href="#">Consultoría</a></li>
                                                 <li><a href="#">Capital Humano</a></li>
                                                 <li><a href="#">JAME</a></li>
@@ -643,7 +549,7 @@
                                                 Hablemos
                                             </h3>
                                             <ul class="quick_links">
-                                                <li><a href="#">+59 9 11 4440-7433</a></li>
+                                                <li><a href="tel:+54 11 6681-1552">+54 9 11 6681-1552</a></li>
                                                 <li><a href="mailto:info@taho.com.ar" target="_top">info@taho.com.ar</a></li>
                                             </ul>
                                         </div>
@@ -657,11 +563,9 @@
         </div>
         <div class="footer_copy_right">
             <p>
-                
-                TAHO &copy;<script>
+                <span style="color: #C04132;">TAHO</span> &copy;<script>
                 document.write(new Date().getFullYear());
-                </script> Todos los derechos reservados | Diseñado por <a href="" target="_blank">MOY</a>
-               
+                </script> Todos los derechos reservados | Diseñado por <a href="www.meocupoyo.com.ar" target="_blank">MOY</a>
             </p>
         </div>
     </footer>
@@ -672,6 +576,7 @@
         <a href="mailto:info@taho.com.ar" target="_top"><i class="fa fa-envelope"></i></a>
     </div>
     <!-- JS here -->
+
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -697,6 +602,9 @@
     <script src="js/mail-script.js"></script>
     <script src="js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
         $('.customer-logos').slick({
@@ -721,6 +629,145 @@
         });
     });
     </script>
+
+
+        <script>
+  AOS.init();
+</script>
+
+
+    <!--------------------------------------MODALS----------------------------------------->
+    <!---------------------------------------- Modal 1 --------------------------------------->
+    <div class="modal fade" id="modalFacundo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Facundo González</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5>CO FUNDADOR Y DIRECTOR DE TAHO</h5>
+                    <br>
+                    <p>Experto en el desarrollo de culturas organizacionales<br> de real<strong><span style="color: #C04132;">  Excelencia Operacional.</span></strong><br>Formado durante 11 años por especialistas de Toyota Motor Corporation, ha tenido la responsabilidad de transmitir con éxito las características del <strong><span style="color: #C04132;">Modelo de Gestión LEAN</span></strong> en las diferentes áreas de Toyota en Argentina (producción, logística, comercial y financiera).</p>
+                    <p>Ha participado en numerosas convenciones globales y regionales de Mejora Continua, realizadas en Japón, Tailandia, Estados Unidos, Brasil y Argentina.</p>
+                    <hr>
+                    <P>
+                        <ul>
+                            <li>- Director de <span style="color: #C04132;"><strong>JAME</strong></span> (Japanese Management Experience).</li>
+                            <li>- Disertante junto al Dr. Jeffrey Liker en México DF.</li>
+                            <li>- Honrado con numerosos reconocimientos y distinciones por sus investigaciones.
+                            </li>
+                            <li>- Creador y Organizador del Forum Internacional de Lean Management.</li>
+                            <li>- Director y Docente del Post Grado Diplomatura Lean en ITBA.</li>
+                            <li>- Ingeniero Mecánico (UBA), obtuvo una Maestría en Administración de Empresas en la UADE Business School.</li>
+                        </ul>
+                    </P>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------- Modal 1 ---------------------------------------->
+    <!---------------------------------------- Modal 2 ---------------------------------------->
+    <div class="modal fade" id="modalJorge" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Jorge Anschütz</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5>CO FUNDADOR Y DIRECTOR DE TAHO</h5>
+                    <br>
+                    <p>Referente de la difusión y aplicación del Modelo LEAN en Latinoamérica.
+                        <br>
+                        Experto en programas de implementación de <span style="color: #C04132;"><strong> Transformación cultural y gestión de la eficiencia.</span></strong>
+                        <br>
+                        Diseña e implementa programas de <span style="color: #C04132;"><strong>Excelencia Operacional</span></strong> para numerosas empresas multinacionales pertenecientes<BR> a la industria automotriz, consumo masivo, retail, logística, minería, distribución y generación eléctrica (España, Brasil, Colombia, Chile, Perú y Argentina).</p>
+                    <hr>
+                    <ul>
+                        <li>- Director de <span style="color: #C04132;"><strong>JAME</strong></span> (Japanese Management Experience).</li>
+                        <li>- Creador y Organizador del Forum Internacional de<br> Lean Management.</li>
+                        <li>- Director y Docente del Post Grado Diplomatura Lean en ITBA.
+                        </li>
+                        <li>- Licenciado en Administración (UBA), obtuvo una Maestría<br> en Administración de Empresas de la Universidad del CEMA.</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------- Modal 2 ---------------------------------------->
+    <!---------------------------------------- Modal 3 ---------------------------------------->
+    <div class="modal fade" id="modalDaniel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Daniel Padilla</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5>DIRECTOR ASOCIADO CAPITAL HUMANO</h5>
+                    <br>
+                    <p>Especialista en comportamiento organizacional y desarrollo<br> de Lean Management.<br>
+                        Sociólogo, con estudios de postgrado en investigación social, administración de negocios y recursos humanos en Argentina, Estados Unidos, Francia y Japón.<br>Realizó investigaciones en organizaciones públicas y en mercado de trabajo <span style="color: #C04132;"><strong>(CONICET y UBACyT)</strong></span> y se ha desempeñado como docente universitario de grado<br> y postgrado.
+                    </p>
+                    <hr>
+                    <ul>
+                        <li>- Tuvo una extensa trayectoria gerencial en <span style="color: #C04132;"><strong>Toyota Argentina.</strong></span></li>
+                        <li>- A su cargo estuvo la puesta en marcha y gestión de los departamentos de Desarrollo Organizacional y de Total<br> Quality Management y del Instituto Toyota en Argentina.</li>
+                        <li>- Ha trabajado en investigación de mercado y opinión pública y en análisis de organizaciones y de servicio al cliente en varias empresas líderes. </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------- Modal 3 ---------------------------------------->
+    <!---------------------------------------- Modal 4 ---------------------------------------->
+    <div class="modal fade" id="modalDaniel2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Daniel Porciel</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5>GERENTE DESARROLLO ORGANIZACIONAL</h5>
+                    <br>
+                    <p>Su formación en Psicología Social, Ciencias de la Educación, Cambio Cultural, Gestión de las organizaciones y Coaching Holístico, le han permitido desempeñarse durante 20 años como consultor en empresas de Latinoamérica.<br>
+                        Instructor del equipo de formación de la Universidad Torcuato Di Tella, de la Escuela Argentina de Marketing. (ESAMA) y miembro del equipo docente de la Universidad Telecom.
+                    </p>
+                    <hr>
+                    <ul>
+                        <li>- Ex Asesor Integral de Capacitación y Desarrollo en Toyota Argentina </li>
+                        <li>- Desarrollo con éxito el programa de Desarrollo de Mandos Medios en Metalsa Argentina</li>
+                        <li>- Asistiencia a empresas como: Unilever, Clorox, Petrobras; Codelco (Chile); Brasa Desarrollo (México). </li>
+                        <li>- Trabajó dando soporte al despliegue de LEAN en el área de Tecnología de la Información de YPF. </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------- Modal 4 ---------------------------------------->
+    <!-----------------------------------------/MODALS----------------------------------------->
 </body>
 
 </html>
