@@ -89,7 +89,9 @@ ul {
 }
 
 li {
-    list-style: none
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    line-height: 26px;
 }
 
 p {
@@ -960,12 +962,11 @@ h3 {
     position: relative;
     padding-left: 35px;
     margin-bottom: 6px;
+    font-family: "Roboto", sans-serif;
 
 }
 
-.about_list{
-    font
-}
+
 
 @media (max-width: 767px) {
     .about_area .about_info .about_list li {
@@ -1674,7 +1675,7 @@ h3 {
 }
 
 .project_details {
-    padding-top: 200px;
+    padding-top: 90px;
     padding-bottom: 10px;
 }
 
@@ -5062,6 +5063,7 @@ html, body {
     border-radius: 10px;
     margin-bottom: 60px;
     overflow: hidden;
+    box-shadow: 6px 6px 17px -2px rgba(0,0,0,0.37);
 }
 
 /* line 50, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
@@ -5219,3 +5221,334 @@ html, body {
 
 
 
+/* line 2, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
+#accordion button {
+  font-size: 16px;
+  color: #0f2137;
+  font-weight: 500;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  /* line 2, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
+  #accordion button {
+    font-size: 14px;
+  }
+}
+
+/* line 11, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
+#accordion .card {
+  margin-bottom: 15px;
+  border-radius: 0;
+  border-radius: 0 !important;
+  margin-bottom: 30px;
+}
+
+/* line 16, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
+#accordion .card .card-header {
+  background-color: transparent;
+  padding: 4px 14px;
+}
+
+@media (max-width: 767px) {
+  /* line 16, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
+  #accordion .card .card-header {
+    padding: 4px 0;
+  }
+}
+
+/* line 23, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
+#accordion .card .card-body {
+  font-size: 16px;
+  line-height: 28px;
+  color: #888888;
+  padding: 10px 30px 32px;
+}
+
+/* line 29, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
+#accordion .card .collapse {
+  border-bottom: 1px solid #d7dbe3;
+}
+
+/* line 31, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
+#accordion .card .collapse.show {
+  border-bottom: 1px solid transparent;
+}
+
+/* line 39, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
+#accordion h5 {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 65, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
+#accordion h5 button.btn.btn-link:after {
+  position: absolute;
+  content: "\e648";
+  top: 9px;
+  right: 12px;
+  height: auto;
+  font-family: 'themify';
+  color: #0f2137;
+  font-size: 14px;
+  left: -24px;
+}
+
+@media (max-width: 767px) {
+  /* line 65, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
+  #accordion h5 button.btn.btn-link:after {
+    right: 10px;
+  }
+}
+
+/* line 81, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
+#accordion h5 button.btn.btn-link.collapsed:after {
+  content: "\e64b";
+  color: #131313;
+  font-size: 14px;
+}
+
+/* line 88, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
+#accordion h5 button i {
+  height: 36px;
+  width: 36px;
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 50%;
+  margin-right: 20px;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media (max-width: 767px) {
+  /* line 88, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
+  #accordion h5 button i {
+    display: none;
+  }
+}
+
+/* line 104, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
+#accordion h5 button.btn.btn-link.collapsed i {
+  background: #f4f7f9;
+  color: #0f2137;
+}
+
+@media (max-width: 767px) {
+  /* line 104, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
+  #accordion h5 button.btn.btn-link.collapsed i {
+    display: none;
+  }
+}
+
+/* line 116, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
+#accordion .btn-link:hover {
+  color: #182028;
+  text-decoration: none;
+}
+
+/* line 120, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion.scss */
+#accordion .btn {
+  text-align: left !important;
+}
+
+/* line 1, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
+.accordion_area {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+/* line 4, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
+.accordion_area .accordion_thumb {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* line 7, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
+.accordion_area .accordion_thumb img {
+  width: 100%;
+}
+
+/* line 12, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
+.accordion_area .faq_ask h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #131313;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 500;
+    margin-bottom: 33px;
+
+}
+
+@media (max-width: 767px) {
+  /* line 12, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
+  .accordion_area .faq_ask h3 {
+    font-size: 38px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 12, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
+  .accordion_area .faq_ask h3 {
+    font-size: 38px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+}
+
+/* line 29, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
+.accordion_area .faq_ask #accordion .card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: none;
+  border-radius: .25rem;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+/* line 46, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
+.accordion_area .faq_ask #accordion .card .card-header {
+  background-color: transparent;
+  padding: 4px 14px;
+  border: none;
+}
+
+/* line 51, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
+.accordion_area .faq_ask #accordion button {
+  font-size: 15px;
+  color: #001D38 !important;
+  font-weight: 300 !important;
+}
+
+@media (max-width: 767px) {
+  /* line 55, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
+  .accordion_area .faq_ask #accordion button span {
+    display: none;
+  }
+}
+
+/* line 61, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
+.accordion_area .faq_ask #accordion .card .card-header {
+  background-color: transparent;
+  padding: 4px 30px;
+}
+
+/* line 75, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
+.accordion_area .faq_ask #accordion .card .card-body {
+  font-size: 15px;
+  line-height: 28px;
+  color: #131313;
+  padding: 10px 30px 32px;
+  font-weight: 400;
+  line-height: 28px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 85, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_accordion_area.scss */
+.accordion_area .faq_ask #accordion .btn-link.focus, .accordion_area .faq_ask #accordion .btn-link:focus {
+  text-decoration: none;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.box-shadow{
+-webkit-box-shadow: 6px 6px 17px -2px rgba(0,0,0,0.37);
+-moz-box-shadow: 6px 6px 17px -2px rgba(0,0,0,0.37);
+box-shadow: 6px 6px 17px -2px rgba(0,0,0,0.37);
+}
+
+
+
+
+@media (max-width: 767px) {
+ .card{
+    margin: 5px;
+
+  }
+}
+
+
+/*--------------------------------------------------*/
+.wrap {
+    display: flex;
+    background: white;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+   box-shadow: 6px 6px 17px -2px rgba(0,0,0,0.37);
+    margin-bottom: 2rem;
+}
+
+.wrap:hover {
+background: rgb(192,65,50);
+background: linear-gradient(90deg, rgba(192,65,50,0.8519782913165266) 14%, rgba(255,255,255,0.22172619047619047) 100%);
+}
+
+.ico-wrap {
+    margin: auto;
+}
+
+.mbr-iconfont {
+    font-size: 4.5rem !important;
+    color: #313131;
+    margin: 1rem;
+    padding-right: 1rem;
+}
+.vcenter {
+    margin: auto;
+}
+
+.mbr-section-title3 {
+    text-align: left;
+}
+h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.display-5 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+}
+.mbr-bold {
+    font-weight: 700;
+}
+
+
+.display-6 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1re}
+
+.wrap p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    line-height: 25px;
+    font-family: 'Raleway', sans-serif;
+    color: #131313;
+    font-weight: 400;
+}
+
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #515151;
+    margin-bottom: 13px;
+    font-family: 'Raleway', sans-serif;
+}
