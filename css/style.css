@@ -192,7 +192,7 @@ h3 {
 .overlay::before {
     position: absolute;
     content: "";
-    background-color: #020c26;
+    background-color: #000000;
     top: 0;
     left: 0;
     width: 100%;
@@ -490,11 +490,11 @@ h3 {
 
 .slicknav_menu .slicknav_nav a:hover {
     background: transparent;
-    color: #ff5e13
+    color: #C04132;
 }
 
 .slicknav_menu .slicknav_nav a.active {
-    color: #ff5e13
+    color: #C04132;
 }
 
 @media (max-width: 767px) {
@@ -1165,8 +1165,8 @@ h3 {
 }
 
 .lastest_project .single_project_thumb img {
-    width:90%
-        -webkit-box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);
+    width:100%
+    -webkit-box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);
     -moz-box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);
     box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);
 }
@@ -1688,7 +1688,7 @@ h3 {
 
 .project_details {
     padding-top: 90px;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
 }
 
 @media (max-width: 767px) {
@@ -1771,6 +1771,13 @@ h3 {
 
 .project_details .projects_details_info .details_thumb img {
     width: 100%
+
+ -webkit-box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);
+    box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);
+
+
+
 }
 
 @media (max-width: 767px) {
@@ -5320,3 +5327,33 @@ p {
     font-family: 'Raleway', sans-serif;
 }
 
+
+.titulo {
+    color: #C04132;
+    font-size: 36px;
+    font-weight: 500;
+    
+}
+
+
+
+@media (max-width: 767px) {
+ .titulo{
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 10px;
+
+  }
+}
+
+
+#video-texto{
+    background:url(../img/banner/footer.png) no-repeat center center/cover;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    -webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll 15s linear 1;
+    animation-fill-mode: forwards;
+}
