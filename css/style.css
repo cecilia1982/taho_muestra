@@ -576,7 +576,7 @@ h3 {
 
 .header-area .main-header-area {
     padding: 0 150px;
-   
+
 }
 
 @media (max-width: 767px) {
@@ -898,6 +898,8 @@ h3 {
 .about_area .about_thumb {
     position: relative;
     z-index: 2
+
+
 }
 
 .slider_area .about_thumb {
@@ -906,7 +908,8 @@ h3 {
 }
 
 .about_area .about_thumb img {
-    width: 100%
+    width: 100%;
+    box-shadow: 6px 6px 17px -2px rgba(0,0,0,0.37);
 }
 
 .about_area .about_thumb .exprience {
@@ -1162,7 +1165,10 @@ h3 {
 }
 
 .lastest_project .single_project_thumb img {
-    width: 100%
+    width:90%
+        -webkit-box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);
+    box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);
 }
 
 .testimonial_bg {
@@ -5256,17 +5262,18 @@ box-shadow: 6px 6px 17px -2px rgba(0,0,0,0.37);
 }
 
 .wrap:hover {
-background: rgb(192,65,50);
-background: linear-gradient(90deg, rgba(192,65,50,0.8519782913165266) 14%, rgba(255,255,255,0.22172619047619047) 100%);
+background: #F9F9F9;
+
 }
 
 .ico-wrap {
     margin: auto;
+
 }
 
 .mbr-iconfont {
     font-size: 4.5rem !important;
-    color: #313131;
+    color: #c6c387;
     margin: 1rem;
     padding-right: 1rem;
 }
@@ -5312,5 +5319,4 @@ p {
     margin-bottom: 13px;
     font-family: 'Raleway', sans-serif;
 }
-
 
