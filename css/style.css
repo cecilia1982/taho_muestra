@@ -5357,3 +5357,16 @@ p {
     animation: backgroundScroll 15s linear 1;
     animation-fill-mode: forwards;
 }
+
+
+#parallax{
+    background:url(../img/banner/parallax.png) no-repeat center center/cover;
+    background-attachment: fixed;
+    background-size: cover;
+
+    
+    -webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll 15s linear 1;
+    animation-fill-mode: forwards;
+}
