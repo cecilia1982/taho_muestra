@@ -1166,9 +1166,9 @@ h3 {
 
 .lastest_project .single_project_thumb img {
     width:100%
-    -webkit-box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);
+    /*-webkit-box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);
     -moz-box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);
-    box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);
+    box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);*/
 }
 
 .testimonial_bg {
@@ -5369,4 +5369,22 @@ p {
     -webkit-animation-fill-mode: forwards;
     animation: backgroundScroll 15s linear 1;
     animation-fill-mode: forwards;
+
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+#parallax2{
+    background:url(../img/banner/parallax-2.png) no-repeat center center/cover;
+    background-attachment: fixed;
+    background-size: cover;
+
+    
+    -webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll 15s linear 1;
+    animation-fill-mode: forwards;
+
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
