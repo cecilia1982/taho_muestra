@@ -576,6 +576,7 @@ h3 {
 
 .header-area .main-header-area {
     padding: 0 150px;
+    height: 110px;
 
 }
 
@@ -611,7 +612,7 @@ h3 {
 
 .header-area .main-header-area .main-menu {
     text-align: center;
-    padding: 12px 0
+    padding: 7px 0
 }
 
 .header-area .main-header-area .main-menu ul li {
@@ -733,7 +734,6 @@ h3 {
 @media (max-width: 767px) {
     .header-area .main-header-area.sticky {
         padding: 10px 0
-       
     }
 }
 
@@ -760,7 +760,8 @@ h3 {
 }
 
 .header-area .get_in_tauch {
-    text-align: right
+    text-align: right;
+
 }
 
 .header-area .get_in_tauch a {
@@ -773,7 +774,7 @@ h3 {
 }
 
 .slider_bg_2 {
-    background-image: url(../img/banner/banner-07.png)
+    background-image: url(../img/banner/banner-slider-02.png)
 }
 
 .slider_bg_3 {
@@ -783,6 +784,11 @@ h3 {
 .slider_bg_4 {
     background-image: url(../img/banner/slider-4-taho.png)
 }
+
+.slider_bg_5 {
+    background-image: url(../img/banner/banner-slider-01.png)
+}
+
 
 .slider_area .single_slider {
     height: 500px;
@@ -847,6 +853,15 @@ h3 {
     margin-top: 15px
 }
 
+#text-slide p {
+
+    margin-bottom: 20px;
+
+
+}
+
+
+
 @media (min-width: 992px) and (max-width: 1200px) {
     .slider_area .single_slider .slider_text p {
         font-size: 16px
@@ -858,7 +873,7 @@ h3 {
 }
 
 .about_area {
-    padding-top: 200px;
+    padding-top: 120px;
     padding-bottom: 100px
 }
 
@@ -898,8 +913,6 @@ h3 {
 .about_area .about_thumb {
     position: relative;
     z-index: 2
-
-
 }
 
 .slider_area .about_thumb {
@@ -909,7 +922,7 @@ h3 {
 
 .about_area .about_thumb img {
     width: 100%;
-    box-shadow: 6px 6px 17px -2px rgba(0,0,0,0.37);
+    box-shadow: 6px 6px 17px -2px rgba(0, 0, 0, 0.37);
 }
 
 .about_area .about_thumb .exprience {
@@ -1078,10 +1091,11 @@ h3 {
     background-image: url(../img/video/vimeo_japon_bg.png)
 }
 
-.youtube_video_area{
+.youtube_video_area {
     margin-top: 40px;
     margin-bottom: 50px;
 }
+
 .youtube_video_area .youtube_video {
     height: 580px;
     display: -webkit-box;
@@ -1165,8 +1179,8 @@ h3 {
 }
 
 .lastest_project .single_project_thumb img {
-    width:100%
-    /*-webkit-box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);
+    width: 100%
+        /*-webkit-box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);
     -moz-box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);
     box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);*/
 }
@@ -1770,9 +1784,7 @@ h3 {
 }
 
 .project_details .projects_details_info .details_thumb img {
-    width: 100%
-
- -webkit-box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);
+    width: 100% -webkit-box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);
     -moz-box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);
     box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.55);
 
@@ -1961,14 +1973,13 @@ h3 {
     position: relative;
     right: 0px;
     top: 0px
-    
 }
 
 .details_slider_area .owl-carousel .owl-nav div.owl-prev i {
     position: relative;
     right: 0px;
     top: 0px;
-   
+
 }
 
 
@@ -4821,11 +4832,11 @@ h6 {
 /* Slider marcas*/
 .slick-slide {
     margin: 30px 30px;
-    
+
 
 }
 
-.margin-slider{
+.margin-slider {
     margin-bottom: 50px;
 }
 
@@ -4986,23 +4997,28 @@ margin: 30px 30px;
     right: 0;
     bottom: 0;
     left: 0;
-   /* z-index: -1;*/
+    /* z-index: -1;*/
     background-color: #000;
 }
 
 
-  .modal-backdrop{z-index: 1050;} 
-  .modal{
-    z-index: 1060;
-  }     
-  .modal-body{
-    font-family: 'Raleway', sans-serif;
-  }
-  
+.modal-backdrop {
+    z-index: 1050;
+}
 
-html, body {
-     width: auto !important;
-     overflow-x: hidden !important;
+.modal {
+    z-index: 1060;
+}
+
+.modal-body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+html,
+body {
+    width: auto !important;
+    overflow-x: hidden !important;
 }
 
 
@@ -5082,7 +5098,7 @@ html, body {
     border-radius: 10px;
     margin-bottom: 60px;
     overflow: hidden;
-    box-shadow: 6px 6px 17px -2px rgba(0,0,0,0.37);
+    box-shadow: 6px 6px 17px -2px rgba(0, 0, 0, 0.37);
 }
 
 /* line 50, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_case_study.scss */
@@ -5241,20 +5257,20 @@ html, body {
 
 
 
-.box-shadow{
--webkit-box-shadow: 6px 6px 17px -2px rgba(0,0,0,0.37);
--moz-box-shadow: 6px 6px 17px -2px rgba(0,0,0,0.37);
-box-shadow: 6px 6px 17px -2px rgba(0,0,0,0.37);
+.box-shadow {
+    -webkit-box-shadow: 6px 6px 17px -2px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 6px 6px 17px -2px rgba(0, 0, 0, 0.37);
+    box-shadow: 6px 6px 17px -2px rgba(0, 0, 0, 0.37);
 }
 
 
 
 
 @media (max-width: 767px) {
- .card{
-    margin: 5px;
+    .card {
+        margin: 5px;
 
-  }
+    }
 }
 
 
@@ -5264,12 +5280,12 @@ box-shadow: 6px 6px 17px -2px rgba(0,0,0,0.37);
     background: white;
     padding: 1rem 1rem 1rem 1rem;
     border-radius: 0.5rem;
-   box-shadow: 6px 6px 17px -2px rgba(0,0,0,0.37);
+    box-shadow: 6px 6px 17px -2px rgba(0, 0, 0, 0.37);
     margin-bottom: 2rem;
 }
 
 .wrap:hover {
-background: #F9F9F9;
+    background: #F9F9F9;
 
 }
 
@@ -5280,10 +5296,12 @@ background: #F9F9F9;
 
 .mbr-iconfont {
     font-size: 4.5rem !important;
-    color: #c6c387;
+    color: #C04132;
     margin: 1rem;
     padding-right: 1rem;
+    opacity: 0.9;
 }
+
 .vcenter {
     margin: auto;
 }
@@ -5291,14 +5309,17 @@ background: #F9F9F9;
 .mbr-section-title3 {
     text-align: left;
 }
+
 h2 {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
+
 .display-5 {
     font-family: "Roboto", sans-serif;
     font-size: 1.4rem;
 }
+
 .mbr-bold {
     font-weight: 700;
 }
@@ -5306,7 +5327,8 @@ h2 {
 
 .display-6 {
     font-family: "Roboto", sans-serif;
-    font-size: 1re}
+    font-size: 1re
+}
 
 .wrap p {
     padding-top: 0.5rem;
@@ -5332,26 +5354,26 @@ p {
     color: #C04132;
     font-size: 36px;
     font-weight: 500;
-    
+
 }
 
 
 
 @media (max-width: 767px) {
- .titulo{
-    font-size: 24px;
-    line-height: 30px;
-    margin-bottom: 10px;
+    .titulo {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
 
-  }
+    }
 }
 
 
-#video-texto{
-    background:url(../img/banner/footer.png) no-repeat center center/cover;
+#video-texto {
+    background: url(../img/banner/footer.png) no-repeat center center/cover;
     background-attachment: fixed;
     background-size: cover;
-    
+
     -webkit-animation: backgroundScroll 15s linear 1;
     -webkit-animation-fill-mode: forwards;
     animation: backgroundScroll 15s linear 1;
@@ -5359,27 +5381,12 @@ p {
 }
 
 
-#parallax{
-    background:url(../img/banner/parallax.png) no-repeat center center/cover;
+#parallax {
+    background: url(../img/banner/parallax.png) no-repeat center center/cover;
     background-attachment: fixed;
     background-size: cover;
 
-    
-    -webkit-animation: backgroundScroll 15s linear 1;
-    -webkit-animation-fill-mode: forwards;
-    animation: backgroundScroll 15s linear 1;
-    animation-fill-mode: forwards;
 
-    padding-top: 90px;
-    padding-bottom: 90px;
-}
-
-#parallax2{
-    background:url(../img/banner/parallax-2.png) no-repeat center center/cover;
-    background-attachment: fixed;
-    background-size: cover;
-
-    
     -webkit-animation: backgroundScroll 15s linear 1;
     -webkit-animation-fill-mode: forwards;
     animation: backgroundScroll 15s linear 1;
@@ -5389,23 +5396,53 @@ p {
     padding-bottom: 90px;
 }
 
+#parallax2 {
+    background: url(../img/banner/parallax-2.png) no-repeat center center/cover;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+    -webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll 15s linear 1;
+    animation-fill-mode: forwards;
+
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+#parallax3 {
+    background: url(../img/banner/jame.png) no-repeat center center/cover;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+    -webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll 15s linear 1;
+    animation-fill-mode: forwards;
+
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
 
 
 
 
 
 
-.panel .panel-default p{
+.panel .panel-default p {
     margin-bottom: 22px;
 }
 
-.panel-group a{
-color: #C04132;
-font-size: 13px;
-text-transform: uppercase;
-font-weight: bold;
+.panel-group a {
+    color: #C04132;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
-.panel-body{
+
+.panel-body {
     font-family: 'Raleway', sans-serif;
     margin-bottom: 15px;
 
