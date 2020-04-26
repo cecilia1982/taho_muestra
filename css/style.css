@@ -5426,7 +5426,20 @@ p {
     padding-bottom: 90px;
 }
 
+#parallax4 {
+    background: url(../img/banner/programas.png) no-repeat center center/cover;
+    background-attachment: fixed;
+    background-size: cover;
 
+
+    -webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll 15s linear 1;
+    animation-fill-mode: forwards;
+
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
 
 
 
@@ -5447,3 +5460,5 @@ p {
     margin-bottom: 15px;
 
 }
+
+
