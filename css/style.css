@@ -1343,6 +1343,16 @@ h3 {
     background-image: url(../img/banner/footer.png)
 }
 
+.footer_bg2 {
+    background-image: url(../img/banner/casos.png)
+
+
+
+
+    
+}
+
+
 .footer .footer_top {
     padding: 150px 150px
 }
@@ -5611,7 +5621,7 @@ p {
     width: 90%;
   }
 
-  
+
   #timeline:before {
     left: 0;
   }
