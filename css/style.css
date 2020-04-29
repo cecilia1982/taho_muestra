@@ -361,6 +361,8 @@ h3 {
     width: 220px
 }
 
+
+
 .boxed-btn2 {
     background: transparent;
     color: #fff;
@@ -819,9 +821,9 @@ h3 {
     color: #ffffff;
     font-weight: 700;
     font-family: "Roboto", sans-serif;
-    font-size: 60px;
+    font-size: 55px;
     text-transform: uppercase;
-    letter-spacing: 15px
+    letter-spacing: 10px
 }
 
 @media (max-width: 767px) {
@@ -4848,6 +4850,7 @@ h6 {
 
 .margin-slider {
     margin-bottom: 50px;
+    margin-top: 60px;
 }
 
 .slick-slide img {
@@ -5454,6 +5457,8 @@ p {
 
 
 
+
+
 .panel .panel-default p {
     margin-bottom: 22px;
 }
@@ -5856,3 +5861,20 @@ p {
     transform: translateX(0);
   }
 }
+
+   .jumbotron {
+    background-color: #2C3033 !important;
+    margin-right: 35px;
+    margin-left: 35px;
+    } 
+    .jumbotron h3 {
+        color:#FFFFFF;
+    }
+     .jumbotron p {
+        color:#FFFFFF;
+    }
+    #home-cta {
+        color:#FFFFFF;
+
+    }
+    
