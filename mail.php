@@ -1,21 +1,19 @@
 <?php
-if(isset($_POST)){
+if(isset($_POST['email'])){
 
     $valid = true;
     $labels = '';
 
-    if (isset($_POST['contactForm'])) {
+    // Formulario de contacto
+    $fields = [
+        'name' => 'Nombre',
+        'email' => 'Email',
+        'company' => 'Empresa',
+        'message' => 'Mensaje',
+    ];
 
-        // Formulario de contacto
-        $fields = [
-            'name' => 'Nombre',
-            'email' => 'Email',
-            'empresa' => 'Empresa',
-            'message' => 'Mensaje',
-        ];
-
-        $titulo = 'TAHO - Formulario de contacto';
-    }
+    $titulo = 'TAHO - Formulario de contacto';
+    $para='info@taho.com.ar';
 
     // Validacion
     foreach ($fields as $field => $label) {
@@ -27,7 +25,6 @@ if(isset($_POST)){
     if ($valid) {
         $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
         $cabeceras .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-        $para='info@taho.com.ar';
         $mensaje = '<h3>'.$titulo.'</h3><hr>';
 
         foreach ($fields as $field => $label) {
